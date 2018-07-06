@@ -1,7 +1,6 @@
-/* jshint node: true */
-
+/* eslint-env node */
 'use strict';
 
-module.exports = function () {
-  return {};
+module.exports = function(/* environment, appConfig */) {
+  return { };
 };
